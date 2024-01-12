@@ -54,6 +54,8 @@ class Home extends StatelessWidget {
           leading: Icon(Icons.star),
           title: Text(MyItems[index]['name']!),
           subtitle: Text(MyItems[index]['city']!),
+           onTap: (){
+            mySnackBar(context,MyItems[index]['age']!);
         );
       },),
     );
