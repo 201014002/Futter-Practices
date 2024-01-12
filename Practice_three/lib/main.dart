@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
 
   var MyItems = [
     {"name": "Ahmed", "city": "Dhaka", "age": "33"},
-    {"name": "Ahmed", "city": "Dhaka", "age": "33"},
+    {"name": "Karima", "city": "Dhaka", "age": "24"},
     {"name": "Aryan", "city": "Khulna", "age": "30"},
     {"name": "Mithi", "city": "Dhaka", "age": "31"},
     {"name": "Adima", "city": "Sylhet", "age": "35"},
