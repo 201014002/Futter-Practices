@@ -31,6 +31,7 @@ class _HomeScreenState extends State<HomeScreen>
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
+      animationDuration: Duration(seconds: 5),
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue[900],
